@@ -1,0 +1,62 @@
+.hero{
+    background: url(images/heroimg.jpeg) no-repeat;
+    background-size: cover;
+    
+    height: 50%;
+}
+
+.nav{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+botton i:hover{
+    color:white;
+}
+
+
+.profile-img{
+    transform: scaleX(-1);
+}
+
+.mb-1{
+    width:100%;
+}
+
+
+.section-title{
+    width:30%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 0.3rem solid black;
+}
+
+
+.tech{
+    font-style: oblique;
+}
+
+
+#go-up{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+
+    right: 10px;
+    bottom:10px;
+    background: blue;
+    border-radius: 50%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    box-shadow:-5px 5px 5px rgba(0, 0, 0, 0.7);
+
+    
+
+}
